@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bmw_Unit__c</fullName>
+    <label>Bmw Unit</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IT-Market</fullName>
+                <default>false</default>
+                <label>IT-Market</label>
+            </value>
+            <value>
+                <fullName>PT-Market</fullName>
+                <default>false</default>
+                <label>PT-Market</label>
+            </value>
+            <value>
+                <fullName>BE-Market</fullName>
+                <default>false</default>
+                <label>BE-Market</label>
+            </value>
+            <value>
+                <fullName>DE-Market</fullName>
+                <default>false</default>
+                <label>DE-Market</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

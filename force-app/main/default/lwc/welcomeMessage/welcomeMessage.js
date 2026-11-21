@@ -6,5 +6,5 @@ export default class WelcomeMessage extends LightningElement {
 
     handleClick() {
         this.message = 'Button clicked successfully you can proceed!';
-    }
+    } 
 }
